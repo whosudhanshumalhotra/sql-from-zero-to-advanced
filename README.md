@@ -59,32 +59,6 @@ SQL has multiple dialects. Core concepts transfer across database systems, but s
 - Basic computer literacy.
 - Curiosity and consistent practice.
 
-## Quick start
-
-
-Existing PostgreSQL installation
-
-Create a database:
-
-```sql
-CREATE DATABASE sql_learning;
-```
-
-Connect with `psql`:
-
-```bash
-psql -U postgres -d sql_learning
-```
-
-Run the starter schema:
-
-```bash
-psql -U postgres -d sql_learning -f setup/00_create_learning_schema.sql
-psql -U postgres -d sql_learning -f setup/01_seed_learning_data.sql
-```
-
-See [setup/README.md](setup/README.md) for detailed instructions and troubleshooting. Run `make test` (or `./scripts/verify.sh`) after setup to verify the seeded database. The GitHub Actions workflow repeats the seed script and runs smoke tests on PostgreSQL 17.
-
 ## Complete curriculum
 
 | # | Module | Topics |
