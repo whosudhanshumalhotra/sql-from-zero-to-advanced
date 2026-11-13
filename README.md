@@ -188,9 +188,6 @@ A lesson is considered complete only when:
 - [Use The Index, Luke](https://use-the-index-luke.com/)
 - [Explain PostgreSQL](https://explain.dalibo.com/)
 
-## Repository safety
-
-The Docker database binds to loopback (`127.0.0.1`) by default and uses sample-only credentials. Do not expose it to a public network. See [SECURITY.md](SECURITY.md). The `make reset` command deletes the local database volume and all practice data.
 
 ## Contributing
 
