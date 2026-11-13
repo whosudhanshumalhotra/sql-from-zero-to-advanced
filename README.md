@@ -62,34 +62,8 @@ SQL has multiple dialects. Core concepts transfer across database systems, but s
 
 ## Quick start
 
-### Option A: Docker (recommended)
 
-Install Docker Desktop, then from the repository root:
-
-```bash
-docker compose up -d
-docker compose ps
-```
-
-Connect using:
-
-```bash
-docker exec -it sql-learning-postgres psql -U learner -d sql_learning
-```
-
-Stop the database:
-
-```bash
-docker compose down
-```
-
-Remove the database volume (destructive: deletes local practice data):
-
-```bash
-docker compose down -v
-```
-
-### Option B: Existing PostgreSQL installation
+Existing PostgreSQL installation
 
 Create a database:
 
