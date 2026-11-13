@@ -154,36 +154,6 @@ Do not try to memorize every command. Follow the modules in order, run every exa
 
 Project specifications and acceptance criteria live in [projects/](projects/).
 
-## Repository structure
-
-```text
-sql-from-zero-to-advanced/
-├── README.md
-├── CONTRIBUTING.md
-├── SECURITY.md
-├── SUPPORT.md
-├── LICENSE
-├── CHANGELOG.md
-├── .gitignore
-├── docker-compose.yml
-├── setup/
-├── tests/
-├── .github/workflows/
-├── docs/
-│   ├── 00-database-foundations/
-│   ├── 01-environment-and-first-query/
-│   └── ... 16-analytics-sql/
-├── examples/
-│   ├── queries/
-│   └── expected-results/
-├── practice/
-├── interview-preparation/
-├── projects/
-├── cheat-sheets/
-├── resources/
-└── scripts/
-```
-
 ## How to use this repository
 
 - Read the module overview before opening individual lessons.
