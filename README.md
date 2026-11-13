@@ -47,7 +47,6 @@ Every substantial lesson should answer these questions:
 | Primary SQL dialect | PostgreSQL |
 | Learning baseline | PostgreSQL 17+ |
 | Optional comparison | MySQL 8.0+ |
-| Local environment | Docker Compose or native installation |
 | SQL client | pgAdmin, DBeaver, or `psql` |
 | Version control | Git and GitHub |
 
